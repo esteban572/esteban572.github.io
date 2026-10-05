@@ -1,3 +1,2 @@
-# app-ads.txt for Foreclosure Leads
-# The Google AdMob line (google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0)
-# is added once the AdMob account exists.
+# app-ads.txt for Foreclosure Leads CRM
+google.com, pub-6266088440476427, DIRECT, f08c47fec0942fa0
