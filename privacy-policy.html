@@ -18,7 +18,7 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="updated">Foreclosure Leads · Last updated October 4, 2026</p>
+  <p class="updated">Foreclosure Leads · Last updated October 9, 2026</p>
 
   <p>Foreclosure Leads ("the app") is a tool for real-estate investors to organize foreclosure lists. This policy explains what information the app handles and where it goes.</p>
 
@@ -33,6 +33,7 @@
   <h2>Owner lookups</h2>
   <p>When you tap <em>Find owner</em> (or <em>Find owners</em> for a list), the app sends one property address at a time (street address, city, state, ZIP, county) to our lookup service, which searches publicly available county parcel records and returns the owner of record and related public property details. With each request the app also sends a random identifier created when the app was installed; it is not linked to you or your device's advertising ID and is used only to limit how many lookups one install can make.</p>
   <p>Our lookup service does not store your lists. To avoid repeatedly querying county servers, it keeps copies of the public county responses (which include the searched address) for up to 30 days. It keeps short-lived request counters (by install identifier and network address) for rate limiting, which reset within a day. Our server logs record only whether a lookup succeeded, not addresses, names, or identifiers, and are kept for a few days.</p>
+  <p>For Texas properties in counties that don't publish their own parcel records online, our lookup service sends the property address to the US Census Bureau geocoder to get its map coordinates, then sends those coordinates to the Texas Geographic Information Office (TxGIO) statewide parcel service to find the parcel's public owner record. Because that service answers with the public records of the parcels around the point, the 30-day copy described above may include nearby parcels' public records.</p>
   <p>To show a map photo of a property, the property address is sent to the US Census Bureau geocoder, which returns its map coordinates, and those coordinates are sent to Mapbox, which returns a satellite image. Our lookup service keeps only the address and its coordinates (not the image) for up to 30 days.</p>
 
   <h2>Phone calls, texts and web searches</h2>
